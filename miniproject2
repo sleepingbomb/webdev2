@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/307cab57ac.js" crossorigin="anonymous"></script>
+    
+    <title>music sign up</title>
+    <style>
+        
+        
+        body{
+            background-image: url("https://images-na.ssl-images-amazon.com/images/I/61S3Ku77c6L._SY450_.jpg");
+            background-repeat: no-repeat;
+            
+            background-size: 60%; 
+            
+            
+             height: auto;
+           
+             
+            
+            
+
+        }
+        form{
+            
+            margin-right: auto;
+            text-align: center;
+            border: 1px solid #ccc;
+            position: absolute;
+            top: 0;
+             right: 0;
+            width: auto;
+            height:auto;
+             background: #fff;
+        }
+        #input-wrapper{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left:80px ;
+            padding-right: 80px;
+   
+            
+ 
+ 
+ 
+
+        }
+        .input-box{
+            font-size: larger;
+            padding-bottom: 12px;
+            border: 0;
+            margin-bottom: 40px;
+            border-bottom:1px solid gainsboro;
+            width: 100%;
+            ;
+        }
+        #form-heading{
+            font-size: 40px;
+           
+            font-family: fantasy;
+            padding-bottom: 32px;
+            padding-top: 45px;
+            color: brown;
+            text-decoration-line: overline underline ;
+            text-decoration-style: double;
+            text-decoration-color: rgb(37, 33, 33);
+        
+
+        }
+        .social-icon{
+            height: 50px;
+            width: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 70px;
+            padding-right: 32px;
+        }
+        #social-wrapper{
+            background-color: #4e4a53;
+            padding: 24px;
+            
+        }
+        .submit-type{
+            width: 50%;
+            height: 60%;
+    
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: white;
+            border: none;
+        
+        }
+        .er{
+            margin-top: 100px;
+            margin-bottom: 300px;
+            margin-left: 200px;
+            margin-right: 350px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="er">
+    <form>
+    <h2 id="form-heading"><i class="fas fa-guitar fa-flip-horizontal"></i> ROCK & ROLL<i class="fas fa-guitar"></i></h2>
+       
+    <div id="social-wrapper">
+        <table>
+            <tr >
+                <td><img class="social-icon" src="https://cdnlogo.com/logos/g/35/google-icon.svg" alt=gmail></td>
+                <td><img class="social-icon" src = "https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/linkedin-512.png" 
+                    alt = "GoogleIcon"></td>
+                    <td>
+                    <img class="social-icon" src = "https://image.flaticon.com/icons/png/512/25/25231.png" 
+                    alt = "GoogleIcon"></td>
+                    <td><img class="social-icon" src = "https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" 
+                        alt = "GoogleIcon"></td>
+        
+            </tr>
+       </table>
+    </div>
+    <div id="input-wrapper">
+        <br>
+
+        <br>
+    
+       <!-- <label for="">Full Name</label><br> -->
+       <input class="input-box" type="text" name="" placeholder="Full Name"required><br>
+       <br>
+       <!-- <label for="">Your Email</label><br> -->
+       
+       <input class="input-box"type="email" name="" placeholder="Your Email" required><br>
+       <br>
+       <!-- <label for="">Password</label><br> -->
+       <input class="input-box"type="password" name="" placeholder="Password"><br>
+       <br>
+       <!-- <label for="">Confirm Password</label><br> -->
+       <input class="input-box"type="password" name="" placeholder="Confirm Password"><br>
+       <input class="submit-type" type="submit" value="Register">
+    </div>
+    </form>
+</div>
+    
+</body>
+</html>
